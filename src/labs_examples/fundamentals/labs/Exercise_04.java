@@ -33,6 +33,8 @@ public class Exercise_04 {
         double doubleVal = 179.27;
         System.out.println("double doubleVal is: " + doubleVal);
 
+        System.out.println("The largest value a byte can hold is: " + Byte.MAX_VALUE);
+
     }
 
 }
