@@ -16,6 +16,22 @@ public class Exercise_04 {
         System.out.println("int i is: " + i);
 
         // write your code below
+        boolean isEmpty = false;
+        System.out.println("boolean isEmpty is: " + isEmpty);
+        char letter = 'a';
+        System.out.println("char letter is: " + letter);
+        byte b = 127;
+        System.out.println("byte b is: " + b);
+        short s = 32767;
+        System.out.println("short s is: " + s);
+        int intVal = 2147483647;
+        System.out.println("int intVal is: " + intVal);
+        long longVal = 9223372036854775807L;
+        System.out.println("long longVal is: " + longVal);
+        float floatVal = 340282346638528860000000000000000000000.0f;
+        System.out.println("float floatVal is: " + floatVal);
+        double doubleVal = 179.27;
+        System.out.println("double doubleVal is: " + doubleVal);
 
     }
 
