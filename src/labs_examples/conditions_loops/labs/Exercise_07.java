@@ -1,4 +1,5 @@
 package labs_examples.conditions_loops.labs;
+import java.util.Scanner;  // Import the Scanner class
 
 /**
  * Conditions and Loops Exercise 7: First vowel
@@ -14,4 +15,20 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_07 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); //creating the scanner
+        System.out.println("Enter any word to see if there is a vowel in it.");
+        String userWord = scanner.nextLine();  // Read user input
+        String vowels = "aeiou"; //creating a string of vowels
+        int i = 0; //creating a counter
+        while(i < userWord.length()){ //while loop to check if the word has a vowel
+            if(vowels.indexOf(userWord.charAt(i)) != -1){ //if statement to check if the word has a vowel
+                System.out.println("The first vowel in the word " + userWord + " is " + userWord.charAt(i));
+                break; //breaks the loop
+            }
+            i++; //increments the counter
+
+
+        }
+    }
 }
