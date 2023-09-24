@@ -3,7 +3,8 @@ package labs_examples.objects_classes_methods.labs.oop.A_inheritance;
 /**
  * Run the class below and study the output. What prints and why?
  *
- * Your answer:
+ * Your answer: 10 prints. The reason why it does is because the variable i in class A is not overridden in class B.
+ * This is because Java only allows methods to be overridden, not variables.
  *
  */
 class A {

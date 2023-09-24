@@ -3,7 +3,7 @@ package labs_examples.objects_classes_methods.labs.oop.A_inheritance;
 /**
  * Why does the output print in the order it does?
  *
- * You answer:
+ * You answer: The output prints in the order it does because the constructor of the parent class is called first,
  *
  */
 
